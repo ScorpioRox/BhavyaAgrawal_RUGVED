@@ -6,7 +6,7 @@ def card(n):
         if i % 2 == 1:
             x = x * 2
             if x > 9:
-                x = x - 9
+                x = x-9
         t = t + x
 
     if t % 10 == 0:

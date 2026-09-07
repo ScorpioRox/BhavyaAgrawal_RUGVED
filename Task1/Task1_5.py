@@ -5,7 +5,7 @@ def fib(x):
         print(1)
     else:
         a,b = 0,1
-        for i in range(2,x+1):
+        for i in range(2,x):
             c = a + b
             a = b
             b = c
